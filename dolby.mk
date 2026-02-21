@@ -25,7 +25,6 @@ PRODUCT_SOONG_NAMESPACES += \
 BOARD_VENDOR_SEPOLICY_DIRS += $(DOLBY_PATH)/sepolicy/vendor
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DOLBY_PATH)/configs/vintf/dolby_framework_matrix.xml
 DEVICE_MANIFEST_FILE += \
     $(DOLBY_PATH)/configs/vintf/vendor.dolby.hardware.dms@2.0-service.xml \
     $(DOLBY_PATH)/configs/vintf/vendor.dolby.media.c2@1.0-service.xml
